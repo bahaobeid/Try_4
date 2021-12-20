@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    margin: 05px; 
+    padding: 0px;
+    
+}
+ 
+
+nav{
+    position: absolute;
+    right: -5px;
+    list-style-type: none;  
+    background-color: rgba(255, 255, 255, 0);
+    
+    
+}
+
+#top ul {
+list-style-type: none;
+position: relative;
+width: 400px;
+height: 200px;
+background-color: rgba(255, 255, 255, 0);
+
+}
+
+#top ul li{
+    list-style-type: none;
+    position: absolute;
+    padding: 10px; 
+    letter-spacing: 02px; 
+    width: 200px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    
+
+}
+
+#top ul :first-child{
+    right: -10px;
+    top: 200px ;
+    animation-name: go;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 50%;
+}
+
+#top ul :nth-child(2){
+    right: 60px;
+    top: 150px;
+    border-radius: 50%;
+    animation-name: go;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+}
+#top ul :nth-child(3){
+    right: 140px;
+    top: 100px;
+    border-radius: 50%;
+    animation-name: go;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#top ul :nth-child(4){
+    right: 240px;
+    top: 50px;
+    border-radius: 50%;
+    animation-name: go;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#top ul :last-child{
+    right: 400px;
+    top:5px;
+    border-radius: 50%;
+    animation-name: go;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* header decoration */
+
+#pot{
+
+    width: 100%;
+    height: 600px; 
+    /* background-image: url("../pic/6.jpg");  */
+    background-size:100% 100%; 
+    margin: 5px;
+    padding: 01px;
+    border-radius: 02% 75% 02% 02% ;
+    border: 01px solid rgb(75, 75, 75);
+    box-shadow: -5px 5px 5px 3px rgba(88, 83, 83, 0.258),
+                 -3px 3px 5px 3px rgba(29, 28, 28, 0.61); 
+    animation-name: pic;
+    animation-duration: 100s; 
+    animation-iteration-count: infinite;
+    animation-direction: alternate;              
+}
+
+
+
+@keyframes pic{
+    0%{
+        background-image: url("../pic/1.jpg"); 
+          
+        }
+
+    10%{
+        background-image: url("../pic/2.jpg");
+         
+        }
+
+    20%{
+        background-image: url("../pic/3.jpg");
+        
+        }
+    
+    30%{
+        background-image: url("../pic/4.jpg");
+         
+        }
+    40%{
+        background-image: url("../pic/5.jpg");
+         
+        }
+    50%{
+        background-image: url("../pic/6.jpg");
+        
+        }
+
+    60%{
+        background-image: url("../pic/7.jpg");
+        }
+    70%{
+        background-image: url("../pic/8.jpg");
+    }
+    80%{
+        background-image: url("../pic/9.jpg");
+        }
+    90%{
+        background-image: url("../pic/10.jpg");
+        }
+    100%{
+        background-image: url("../pic/11.jpg");
+        }
+}     
+
+
+h1{
+    position: absolute;
+    margin-top: 450px;
+    font-size: 80px;
+    background-color: rgba(252, 252, 252, 0.5);
+    letter-spacing: 03px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px 20px ;
+    padding-bottom: 10px;
+    /* text-shadow: -3px 3px 8PX  rgba(116, 2, 2, 0.959); */
+    transition: 1s;
+    animation-name: go;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+  }
+
+
+  @keyframes go{
+    0%{
+        color: white;
+        background-color: rgba(1, 41, 41, 0.726);
+        text-shadow: -3px 3px 8PX  rgba(10, 10, 10, 0.959);   
+    }
+
+    50%{
+        background-color: rgba(113, 41, 41, 0.726);
+        text-shadow: -3px 3px 8PX  rgba(10, 10, 10, 0.959);
+        color:white ;
+            }
+
+    100%{
+        background-color: rgba(116, 2, 2, 0.959);
+        color: rgb(224, 219, 219) ;
+        text-shadow: 0px 10px 10PX  rgba(0, 0, 0, 0.158);
+    }
+}
+
+
+
+
+.back1{
+  background-color:rgba(8, 4, 4, 0.781);
+  padding: 3px;
+  margin-top: 0;
+  border-radius: 10px ;
+  }
+
+  .back2{
+      background-color:rgba(255, 255, 255, 0.781);
+      padding: 3px;
+      margin-top: 0;
+      border-radius: 10px ;
+
+  }
+
+
